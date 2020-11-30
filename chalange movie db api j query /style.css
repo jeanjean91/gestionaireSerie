@@ -1,0 +1,252 @@
+body{
+    
+    background: #fd7f56;
+    
+    overflow: hidden;
+    /*overflow: hidden;*/
+      
+}
+
+header{
+    margin-top: -10px;
+    display: flex;
+    width: 100vw;
+    margin-left: -10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    background:#000;
+    overflow: hidden;
+
+}
+.slick-list{
+    margin: 0 auto;
+    
+}
+h1{
+    color:#fd7f56;
+    margin-left: 20px;
+}       
+   /* premiere section resultat de la recherche  premier carousel */
+.contenair .multiple-items  {
+    margin-top: 20px;
+    border :1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    overflow: hidden;
+    
+    
+    
+}
+span{
+    display: inline-block;
+}
+/* deuxiem section storage et  carousel */
+.storage .slick-list .draggable {
+margin-top: 20px;
+    border :1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.storage > i{
+    opacity: 0;
+} 
+/* bouton prev carousel */
+.slick-prev{
+    z-index: 998;
+    margin-left: 20px;
+}
+/* bouton next carousel */
+.slick-next{
+    z-index: 998;
+    margin-right: 20px;
+}
+/* liste carousel reglage */
+.slick-list{
+    
+    width: 95vw;
+    height: 40vh;
+    margin: 0 auto;
+    background:#fd7f56;
+}
+  
+input{
+    height: 30px;
+    width: 200px;
+    margin-left:20px;
+    
+}
+
+button{
+    margin-left: 15px;  
+    height:30px;
+    width: 80px;
+    cursor: pointer;
+ 
+}
+/*div{
+    margin-left: 50px;
+    width: 100vw;
+    margin-top: 20px;
+    display:inline-block;
+    align-items: center;
+    border:1px solid #fff;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}*/
+img{
+    margin-left: 50px;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+  
+}
+.plus{
+    color: blue;
+    opacity:0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+div:hover  .plus{
+    height: 20px;
+    opacity:1;
+    position: relative;
+}
+
+.cacher{
+	transition: 0.5s all ease-in-out;
+    left: -100%;
+    display: inline-block;
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    background: #d8d1cb;
+    text-align: center;
+    z-index: 9998;
+    color: #000;
+    position: fixed;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    
+   
+}
+.visible{
+    left: 0;
+    width: 35vw;
+	height: 100vh !important;
+    margin-top: -400px;
+	background: #ccc;
+	text-align: center;
+	z-index:1000 ;
+	color: #fff; 
+    position: absolute;	
+    transition: 0.5s all ease-in-out;
+    
+}
+.plus1{
+    color: blue;
+    opacity:0;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.plus1:hover{
+    color: green;
+
+}
+.plus:hover{
+    color: green;
+
+}
+.cacher:hover  .plus1{
+    height: 20px;
+    opacity:1;
+    width: 20px;
+    position: relative;
+}
+.cacher:hover  .plus{
+    opacity: 0;
+}
+#checkit{
+    
+    top:-200px;
+    left:540px;
+}
+#checkit:hover{
+    background: #000;
+    color: #fff;
+}
+.cacher1 {
+bottom:-100%;
+width: 100vw;
+height: 100vh;
+margin-top: 20px;
+border :1px solid black;
+display: flex;
+justify-content: center;
+flex-direction:row;
+flex-wrap: wrap;
+background:#000;
+margin: 0 auto;
+overflow: hidden;
+z-index: 999;
+    
+    
+}
+
+.visible1{
+    
+    bottom:0;
+    width: 100vw;
+	display: flex;
+    overflow: hidden;
+    justify-content: center;
+	/*background: pink;*/
+	text-align: center;
+	z-index: 999;
+	color: #000;
+    margin-left:  0; 	
+    
+}
+#footer{
+    display: flex;
+    color: #fff;
+    flex-direction: row;
+    margin-top: 650px;
+    margin-left: -10px;
+    width: 100vw;
+    height: 100px;
+    background: #000;
+}
+#footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row; 
+}
+#footer li{
+    margin: 10px;
+}
+#gauche{
+ margin-left: 150px
+}
+#droite {
+    margin-left:  750px;
+}
